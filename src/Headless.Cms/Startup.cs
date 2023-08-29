@@ -22,7 +22,7 @@ using Foundation.ContentActionsApi;
 using UNRVLD.ODP.VisitorGroups.Initilization;
 using UNRVLD.ODP.VisitorGroups;
 using EPiServer.ServiceLocation;
-using ODPApiUserProfile = HeadlessCms.Infrastructure.ODPUserProfile;
+ using ODPApiUserProfile = HeadlessCms.Infrastructure.ODPUserProfile;
 using EPiServer.Cms.TinyMce.Core;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;

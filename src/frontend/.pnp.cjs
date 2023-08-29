@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.4.13"],\
             ["html-entities", "npm:2.4.0"],\
             ["next", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.4.7"],\
-            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.22.4"],\
+            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.23.1"],\
             ["next-sitemap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.1.8"],\
             ["react", "npm:18.2.0"],\
             ["react-cookie", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.1.1"],\
@@ -1448,7 +1448,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/tslib", null],\
             ["cross-fetch", "npm:4.0.0"],\
             ["next", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.4.7"],\
-            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.22.4"],\
+            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.23.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:18.2.0"],\
             ["renamer", "npm:4.0.0"],\
@@ -4150,7 +4150,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.4.13"],\
             ["html-entities", "npm:2.4.0"],\
             ["next", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:13.4.7"],\
-            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.22.4"],\
+            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.23.1"],\
             ["next-sitemap", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.1.8"],\
             ["react", "npm:18.2.0"],\
             ["react-cookie", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.1.1"],\
@@ -5831,6 +5831,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:4.23.1", {\
+          "packageLocation": "./.yarn/cache/next-auth-npm-4.23.1-6ed6a0f727-995114797c.zip/node_modules/next-auth/",\
+          "packageDependencies": [\
+            ["next-auth", "npm:4.23.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["virtual:6e6fb9fd4327ad3d09f3a6a4262e278d5f6b808c0a16ba7d1ae8f883338270d13a316a76d401225fe57eecb827784fa0eadc5fb0f083489206b29e0063b2f9a3#npm:4.22.4", {\
           "packageLocation": "./.yarn/__virtual__/next-auth-virtual-415ee1e57f/0/cache/next-auth-npm-4.22.4-e0cf39e786-ce0ea26477.zip/node_modules/next-auth/",\
           "packageDependencies": [\
@@ -5848,7 +5855,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["oauth", "npm:0.9.15"],\
             ["openid-client", "npm:5.4.3"],\
             ["preact", "npm:10.11.0"],\
-            ["preact-render-to-string", "virtual:9ac013d11960aceb126c5d5cfcb890ca2079d2a8b1af2f4a73cbe622b3e4dbc6036cf797b79210ee6a370624c14d232530e581eaa59caadd57b9c848fd095e6f#npm:5.2.4"],\
+            ["preact-render-to-string", "virtual:425b86279db1777d39c54d91ad85347bbb055266b567f98a60d06bb6c1a4c330511bf668ee3b7863b671f0e12c027616ea7d892fe3e15dfb2afd9e1dacd6c503#npm:5.2.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:18.2.0"],\
             ["uuid", "npm:8.3.2"]\
@@ -5865,10 +5872,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.22.4", {\
-          "packageLocation": "./.yarn/__virtual__/next-auth-virtual-9ac013d119/0/cache/next-auth-npm-4.22.4-e0cf39e786-ce0ea26477.zip/node_modules/next-auth/",\
+        ["virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.23.1", {\
+          "packageLocation": "./.yarn/__virtual__/next-auth-virtual-425b86279d/0/cache/next-auth-npm-4.23.1-6ed6a0f727-995114797c.zip/node_modules/next-auth/",\
           "packageDependencies": [\
-            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.22.4"],\
+            ["next-auth", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:4.23.1"],\
             ["@babel/runtime", "npm:7.22.6"],\
             ["@panva/hkdf", "npm:1.0.4"],\
             ["@types/next", null],\
@@ -5882,7 +5889,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["oauth", "npm:0.9.15"],\
             ["openid-client", "npm:5.4.3"],\
             ["preact", "npm:10.11.0"],\
-            ["preact-render-to-string", "virtual:9ac013d11960aceb126c5d5cfcb890ca2079d2a8b1af2f4a73cbe622b3e4dbc6036cf797b79210ee6a370624c14d232530e581eaa59caadd57b9c848fd095e6f#npm:5.2.4"],\
+            ["preact-render-to-string", "virtual:425b86279db1777d39c54d91ad85347bbb055266b567f98a60d06bb6c1a4c330511bf668ee3b7863b671f0e12c027616ea7d892fe3e15dfb2afd9e1dacd6c503#npm:5.2.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:d9650954c7f1725ea712d2e40695de9ea5d1c0fa9b89379134c62909d440d91b03d6c37e2823804a3404472b90a5bec73c82193190dd3c4db4c9e9edd75db91e#npm:18.2.0"],\
             ["uuid", "npm:8.3.2"]\
@@ -6473,10 +6480,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9ac013d11960aceb126c5d5cfcb890ca2079d2a8b1af2f4a73cbe622b3e4dbc6036cf797b79210ee6a370624c14d232530e581eaa59caadd57b9c848fd095e6f#npm:5.2.4", {\
-          "packageLocation": "./.yarn/__virtual__/preact-render-to-string-virtual-3cdc6689d4/0/cache/preact-render-to-string-npm-5.2.4-4147518239-cb29e28017.zip/node_modules/preact-render-to-string/",\
+        ["virtual:425b86279db1777d39c54d91ad85347bbb055266b567f98a60d06bb6c1a4c330511bf668ee3b7863b671f0e12c027616ea7d892fe3e15dfb2afd9e1dacd6c503#npm:5.2.4", {\
+          "packageLocation": "./.yarn/__virtual__/preact-render-to-string-virtual-8062b0c9c7/0/cache/preact-render-to-string-npm-5.2.4-4147518239-cb29e28017.zip/node_modules/preact-render-to-string/",\
           "packageDependencies": [\
-            ["preact-render-to-string", "virtual:9ac013d11960aceb126c5d5cfcb890ca2079d2a8b1af2f4a73cbe622b3e4dbc6036cf797b79210ee6a370624c14d232530e581eaa59caadd57b9c848fd095e6f#npm:5.2.4"],\
+            ["preact-render-to-string", "virtual:425b86279db1777d39c54d91ad85347bbb055266b567f98a60d06bb6c1a4c330511bf668ee3b7863b671f0e12c027616ea7d892fe3e15dfb2afd9e1dacd6c503#npm:5.2.4"],\
             ["@types/preact", null],\
             ["preact", "npm:10.11.0"],\
             ["pretty-format", "npm:3.8.0"]\

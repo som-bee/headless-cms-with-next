@@ -1,3 +1,4 @@
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import type { AppType, AppProps } from 'next/app'
 import type { ComponentProps, FunctionComponent, ComponentType } from 'react'
 import type { EmotionCache } from '@emotion/cache';
@@ -5,7 +6,7 @@ import type { EmotionCritical } from '@emotion/server/create-instance';
 import type { NextComponentType } from 'next';
 import type { AppContextType, DocumentContext, DocumentInitialProps } from 'next/dist/shared/lib/utils';
 import React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+// import Document, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance';
 import createEmotionCache from '../components/shared/Layout/createEmotionCache';
 import { NextRouter } from 'next/router';

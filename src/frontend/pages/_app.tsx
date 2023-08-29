@@ -80,7 +80,7 @@ const MyApp : OptimizelyCmsApp<MyAppProps> = ({ Component, emotionCache = client
                 <SessionProvider session={ session } refetchOnWindowFocus refetchWhenOffline={ false } refetchInterval={ 120 } >
                     <AuthorizeApi>
                         <CurrentContent value={ pageProps.contentId }>
-                            <Script strategy='afterInteractive' id={`track-view-${ pageProps.contentId }`} dangerouslySetInnerHTML={{__html: `console.log(\"Event: Page View of ${ pageProps.contentId }\"); zaius.event('pageview');`}}></Script>
+                            <Script strategy='afterInteractive' id={`track-view-${ pageProps.contentId }`} dangerouslySetInnerHTML={{__html: `console.log(\"Event: Page View of ${ pageProps.contentId }\"); if(typeof zaius !== 'undefined'){zaius.event('pageview');}else{console.log('zaius is undefined!');}`}}></Script>
                             { baseType === 'Block' ? <Component {...pageProps} /> : <Layout><Component { ...pageProps }/></Layout> }
                         </CurrentContent>
                     </AuthorizeApi>
